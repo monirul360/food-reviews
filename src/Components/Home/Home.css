@@ -48,6 +48,10 @@ reviews-content
     text-align: center;    
     border-radius: 5px;
 }
+.review-slice{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 /* =========
 responsive
 ============= */
@@ -65,5 +69,8 @@ responsive
     .img-content{
         width: 100%;
     }
- 
+ .review-slice{
+     display: grid;
+     grid-template-columns: auto;
+ }
 }

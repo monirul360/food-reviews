@@ -2,7 +2,11 @@ import React from 'react';
 import slider from './slider.webp';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import UseReviews from '../Hook/UseReviews';
+import ShowReviews from '../ShowReviews/ShowReviews';
 const Home = () => {
+    const [review, setReview] = UseReviews();
+    const reviewSlice = review.slice(0, 3);
     return (
         <div>
             <div className="slider-section">
@@ -18,7 +22,14 @@ const Home = () => {
             </div>
             <div className="reviews-content">
                 <h1 style={{ textAlign: 'center' }}>Customer Reviews</h1>
-
+                <div className="review-slice">
+                    {
+                        reviewSlice.map(review => <ShowReviews
+                            key={review.id}
+                            review={review}
+                        ></ShowReviews>)
+                    }
+                </div>
                 <Link to="/reviews">See All Reviews</Link>
             </div>
         </div>

@@ -1,0 +1,12 @@
+.chart-flex{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chart-title{
+    text-align: center;
+    color: blue;
+}

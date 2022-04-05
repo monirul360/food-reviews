@@ -5,8 +5,21 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.chart-one{
+    margin-right:30px;
+}
 #chart-title{
     text-align: center;
     color: blue;
+}
+
+@media (max-width:768px) {
+    .chart-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .chart-one{
+        margin-bottom:30px;
+        margin-right:0px;
+    }
 }

@@ -5,11 +5,23 @@ const Blogs = () => {
         <div>
             <div className="blog">
                 <h2>What is context API?</h2>
-                <p>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.</p>
+                <p>context প্রতিটি স্তরে ম্যানুয়ালি প্রপস ডাউন না করেই উপাদান ট্রির মাধ্যমে ডেটা পাস করার একটি উপায় সরবরাহ করে।</p>
+                <p>context প্রাথমিকভাবে ব্যবহৃত হয় যখন কিছু ডেটা বিভিন্ন নেস্টিং স্তরে অনেক উপাদান দ্বারা অ্যাক্সেসযোগ্য হওয়া প্রয়োজন । </p>
+                <p>এটি অল্প পরিমাণে প্রয়োগ করুন কারণ এটি উপাদান পুনঃব্যবহার আরও কঠিন করে তোলে।</p>
+                <p>আপনি যদি শুধুমাত্র অনেক স্তরের মধ্য দিয়ে কিছু প্রপস পাস করা এড়াতে চান তবে উপাদান রচনাটি প্রায়শই প্রসঙ্গের চেয়ে সহজ সমাধান।</p>
+                <p>context  প্রতিটি স্তরের মধ্য দিয়ে স্পষ্টভাবে একটি প্রপ পাস না করে উপাদানগুলির </p>
+                <p>মধ্যে এই জাতীয় মানগুলি ভাগ করার একটি উপায় সরবরাহ করে।</p>
             </div>
             <div className="blog">
-                <h2>ami ekjon web developer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, magnam?</p>
+                <h2>What is semantic tag</h2>
+                <p>semantic tag মূল বৈশিষ্ট্য হল যে এটি বিকাশকারী এবং ব্রাউজার উভয়ের কাছে স্পষ্টভাবে এর অর্থ যোগাযোগ করে। </p>
+                <p>এই উপাদানগুলি স্পষ্টভাবে এর বিষয়বস্তু সংজ্ঞায়িত করে। </p>
+                <p>HTML-এ semantic  ট্যাগ ব্যবহার করার বেশ কিছু সুবিধা রয়েছে:</p>
+                <p>semantic HTML ট্যাগগুলি সার্চ ইঞ্জিন এবং অন্যান্য ব্যবহারকারী ডিভাইসগুলিকে ওয়েব পৃষ্ঠাগুলির গুরুত্ব এবং প্রসঙ্গ নির্ধারণ করতে সহায়তা করে।</p>
+                <p>নিম্নলিখিত HTML ট্যাগগুলি আপনার পৃষ্ঠাটিকে চিহ্নিত অংশে ভাঙতে ব্যবহার করা যেতে পারে যেমন :</p>
+                <p> <b>header</b>: tএকটি ওয়েব পৃষ্ঠার জন্য একটি শিরোনাম সংজ্ঞায়িত করে।</p>
+                <p><b>nav</b>: এটি নেভিগেশন লিঙ্কের জন্য একটি ধারক সংজ্ঞায়িত করে।</p>
+                <p><b>footer</b> : এটি একটি নথি বা একটি বিভাগের জন্য একটি ফুটার সংজ্ঞায়িত করে।</p>
             </div>
         </div>
     );

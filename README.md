@@ -1,3 +1,16 @@
+
+#  Food Reviews
+
+live site : https://sensational-biscuit-be4d13.netlify.app/
+
+# Project Information
+
+* Reviews React App
+* Customer reviews have been shown here
+* A dashboard has been created
+* Something blogs content in Crete
+* This has been used to make it Html ,css and react js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

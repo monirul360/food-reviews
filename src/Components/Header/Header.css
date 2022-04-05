@@ -1,0 +1,20 @@
+.nav-content{
+    text-align: center;
+    padding: 20px;
+}
+.nav-content ul {
+list-style: none;
+}
+.nav-content ul li{
+    display: inline-block;
+    text-align: center;
+}
+.nav-content ul li a{
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}

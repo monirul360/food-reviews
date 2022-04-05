@@ -1,0 +1,15 @@
+.review-container{
+    width: 95%;
+    margin: 20px auto;
+   display: grid;
+   grid-template-columns:auto auto auto;
+}
+
+@media (max-width:768px) {
+    .review-container{
+        width: 95%;
+        margin: 20px auto;
+       display: grid;
+       grid-template-columns:auto;
+    }
+}

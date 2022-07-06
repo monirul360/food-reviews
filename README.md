@@ -1,7 +1,7 @@
 
 #  Food Reviews
 
-live site : https://sensational-biscuit-be4d13.netlify.app/
+live site : https://food-review-site.netlify.app/
 
 # Project Information
 
